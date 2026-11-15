@@ -1,0 +1,26 @@
+{
+  "name": "address-sorter",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "浏览器端地址解析与分拣编码工具（地址库不出本机）",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc --noEmit",
+    "bench": "tsx tools/bench.ts",
+    "selftest": "tsx tools/selftest.ts"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "tsx": "^4.19.2",
+    "typescript": "~5.7.3",
+    "vite": "^6.0.7",
+    "vue-tsc": "^2.2.0"
+  }
+}
